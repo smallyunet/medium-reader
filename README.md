@@ -1,3 +1,4 @@
 # Medium Reader
 
-A chrome extension will redirect to [scribe.rip](https://scribe.rip/) if refresh page after into Medium member-only article.
+A chrome extension will redirect to [scribe.rip](https://scribe.rip/) when onto Medium member-only article.
+
