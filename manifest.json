@@ -11,7 +11,7 @@
         "scripts/content.js"
       ],
       "matches": [
-        "https://*.medium.com/*"
+        "<all_urls>"
       ]
     }
   ],
@@ -22,5 +22,8 @@
   "permissions": [
     "tabs",
     "activeTab"
-  ]
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
