@@ -10,7 +10,7 @@ function processArticle() {
 
   if (article) {
     const text = article.textContent.trim();
-    const targetTexts = ["Member-only", "Unlimited access"];
+    const targetTexts = ["Member-only"];
     const conditionMet = targetTexts.some(targetText => text.includes(targetText)) && isMediumArticle();
     console.log('Condition:', conditionMet);
     console.log('Text:', text)
