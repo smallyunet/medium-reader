@@ -8,13 +8,18 @@
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": ["<all_urls>"],
+      "matches": [
+        "https://medium.com/*",
+        "https://javascript.plainenglish.io/*",
+        "https://medium.datadriveninvestor.com/*"
+      ],
       "run_at": "document_end"
     }
   ],
   "host_permissions": [
-    "http://*/*",
-    "https://*/*"
+    "https://medium.com/*",
+    "https://javascript.plainenglish.io/*",
+    "https://medium.datadriveninvestor.com/*"
   ],
   "permissions": [
     "tabs",
