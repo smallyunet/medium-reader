@@ -9,17 +9,19 @@
     {
       "js": ["scripts/content.js"],
       "matches": [
-        "https://medium.com/*",
-        "https://javascript.plainenglish.io/*",
-        "https://medium.datadriveninvestor.com/*"
+        "https://*.medium.com/*",
+        "https://*.javascript.plainenglish.io/*",
+        "https://*.medium.datadriveninvestor.com/*",
+        "https://*.coinsbench.com/*"
       ],
       "run_at": "document_end"
     }
   ],
   "host_permissions": [
-    "https://medium.com/*",
-    "https://javascript.plainenglish.io/*",
-    "https://medium.datadriveninvestor.com/*"
+    "https://*.medium.com/*",
+    "https://*.javascript.plainenglish.io/*",
+    "https://*.medium.datadriveninvestor.com/*",
+    "https://*.coinsbench.com/*"
   ],
   "permissions": [
     "tabs",
