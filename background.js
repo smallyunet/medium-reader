@@ -2,10 +2,12 @@ const rs = [
   "medium.com",
   "javascript.plainenglish.io",
   "medium.datadriveninvestor.com",
-  "coinsbench.com"
+  "coinsbench.com",
+  "entrepreneurshandbook.co",
+  "writingcooperative.com"
 ];
 
-let logEnabled = true; // 日志开关
+let logEnabled = true; 
 
 function log(...args) {
   if (logEnabled) {

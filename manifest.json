@@ -12,7 +12,9 @@
         "https://*.medium.com/*",
         "https://*.javascript.plainenglish.io/*",
         "https://*.medium.datadriveninvestor.com/*",
-        "https://*.coinsbench.com/*"
+        "https://*.coinsbench.com/*",
+        "https://*.entrepreneurshandbook.co/*",
+        "https://*.writingcooperative.com/*"
       ],
       "run_at": "document_end"
     }
@@ -21,7 +23,9 @@
     "https://*.medium.com/*",
     "https://*.javascript.plainenglish.io/*",
     "https://*.medium.datadriveninvestor.com/*",
-    "https://*.coinsbench.com/*"
+    "https://*.coinsbench.com/*",
+    "https://*.entrepreneurshandbook.co/*",
+    "https://*.writingcooperative.com/*"
   ],
   "permissions": [
     "tabs",
